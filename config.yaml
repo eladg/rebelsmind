@@ -1,0 +1,149 @@
+baseURL: http://localhost:8001/
+# baseURL: https://rebelsmind.com/
+# baseURL: https://www.rebelsmind.com/
+
+languageCode: en-us
+title: Rebels Mind
+googleAnalytics: #Put in your tracking code without quotes like this: UA-XXXXXX...
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/rebelsmind-landscape.png
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Good Tech For Good Causes.
+    # Hero subtitle (optional)
+    subtitle: We are a collective of technology artists and software engineers, working for a better world. Let us architecte a down to earth solution for your business.
+    # Button text
+    buttontext: Contact Us
+    # Where the main hero button links to
+    buttonlink: "mailto:elad@gariany.com"
+    # Hero image (from static/images/___)
+    image: rebelminds-logo-r.png
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - polyversemusic2
+    - nbcnews4
+    - samsungnext2
+    - brightidea2
+  
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: About Us
+    sublinks:
+    - title: Meet the Team
+      url: /
+    - title: Core Values
+      url: /
+    - title: Clients
+      url: /
+    url: /
+  - title: Pricing
+    url: /
+  - title: Email Us
+    url: /
+    button: true
+  section1:
+    title: Experts In What We Do 🚀
+    subtitle: 15 years of professional work in Silicon Valley and Startup Nation. Let us launch your business from the ground up!
+    tiles:
+    - title: Solution Architecture
+      icon: mouse-globe
+      text: From the ground up, we will design your solution
+      url: /
+      buttonText: Our Clients
+    - title: New Media Solutions
+      icon: laptop-cloud
+      text: Complex media is our bread and butter
+      url: /
+      buttonText: Get started
+    - title: One Stop Engineerings
+      icon: plug-cloud
+      text: Let us manage your team, project and deadlines
+      url: /
+      buttonText: Get started
+  section2:
+    title: Meet Our Team of Experts
+    subtitle:  
+    features:
+    - title: Gal Bracha
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # picture (from /images/pictures/____.png)
+      picture: galbracha
+    - title: Elad Gariany
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      picture: eladgariany
+    - title: Aviv Bueno
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      picture: avivbueno2
+  section4:
+    title: Looking to partner with Social Value Business
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: rebelminds-logo-r.png
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
